@@ -1,0 +1,44 @@
+# Bytecode & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+
+# VSCode settings
+.vscode/
+
+# MacOS-specific
+.DS_Store
+
+# Logs
+*.log
+
+# Chainlit
+chainlit.log
+
+# Jupyter notebooks checkpoints (if you ever use them)
+.ipynb_checkpoints/
+
+# Python wheel & dist output
+build/
+dist/
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+.coverage
+
+# MyPy & Pyright
+.mypy_cache/
+.pyright/
+
+# Local scripts / experiments (optional)
+scripts/
